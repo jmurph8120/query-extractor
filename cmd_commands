@@ -1,0 +1,6 @@
+'c:/Program Files/Python312/python' -m venv $HOME/Documents/hackenv
+  cd $HOME/Documents/hackenv/Scripts/
+  source activate
+pip install streamlit
+nano app.py
+streamlit run app.py

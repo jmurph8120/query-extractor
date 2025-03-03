@@ -1,5 +1,6 @@
 import streamlit as st
 import boto3
+from prompt_training_clausonnet import untrained  # Updated import (underscore instead of hyphen)
 
 # Initialize the SageMaker runtime client
 client = boto3.client('sagemaker-runtime', region_name='us-east-1')
@@ -61,3 +62,8 @@ if st.button("🚀 Generate Query"):
             st.code(result, language='plaintext')
     else:
         st.warning("⚠️ Please enter some input data for query generation.")
+
+# Button to run the untrained function
+if st.button("Run Untrained Function"):
+    function_result = untrained()  # Call the function
+    st.write("Function Output:", function_result)

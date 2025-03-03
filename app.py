@@ -33,7 +33,7 @@ selected_model = st.selectbox("📌 Select Model Endpoint:", list(model_options.
 endpoint_name = model_options[selected_model]
 
 # User input
-user_input = st.text_area("📝 Enter input data (CSV format):", height=150)
+user_input = st.text_area("Describe your query", height=150)
 
 # Predict button with improved styling
 st.markdown("""
@@ -48,7 +48,7 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-if st.button("🚀 Predict"):
+if st.button("🚀 Generate Query"):
     if user_input.strip():
         with st.spinner("Processing your request..."):
             result = call_sagemaker_endpoint(endpoint_name, user_input)
@@ -56,8 +56,8 @@ if st.button("🚀 Predict"):
         if "Error:" in result:
             st.error(result)
         else:
-            st.success("✅ Prediction Successful!")
-            st.markdown(f"**🔹 Prediction Result:**")
+            st.success("✅ Query Generation Successful!")
+            st.markdown(f"**🔹 Query Result:**")
             st.code(result, language='plaintext')
     else:
-        st.warning("⚠️ Please enter some input data for prediction.")
+        st.warning("⚠️ Please enter some input data for query generation.")

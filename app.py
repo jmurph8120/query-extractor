@@ -53,7 +53,7 @@ if st.button("🚀 Generate Query"):
     if user_input.strip():
         with st.spinner("Processing your request..."):
             if selected_model == "Untrained Model":
-                result = untrained()
+                result = untrained(user_input)
             else:
                 result = call_sagemaker_endpoint(endpoint_name, user_input)
         

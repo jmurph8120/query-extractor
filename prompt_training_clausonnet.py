@@ -1,9 +1,8 @@
 import boto3
 import json
 
-def untrained():
+def untrained(question):
   bd_clt = boto3.client("bedrock-runtime", region_name="us-east-1")
-  question = "User: Find all employees with the last name \"ERIC\" who are enrolled in a service?"
   
   prompt = """
   You are an AI SQL assistant. Generate SQL queries based on natural language prompts. Use the given schema as reference.
@@ -83,7 +82,7 @@ def untrained():
   """
   
   modelId = "anthropic.claude-3-5-sonnet-20240620-v1:0"
-  bedrock_runtime = boto3.client('bedrock-runtime')
+  bedrock_runtime = boto3.client('bedrock-runtime', region_name="us-east-1")
   user_message = {"role": "user", "content": prompt}
   messages = [user_message]
   max_tokens = 1024

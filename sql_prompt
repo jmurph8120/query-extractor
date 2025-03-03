@@ -1,0 +1,100 @@
+{"prompt": "Write an SQL statement: employee age is greater than 50", "completion": "SELECT * FROM employees WHERE age > 50;"}
+{"prompt": "Write an SQL statement: retrieve all employees whose salary is greater than 50000", "completion": "SELECT * FROM employees WHERE salary > 50000;"}
+{"prompt": "Write an SQL statement: fetch names and departments of employees working in IT department", "completion": "SELECT name, department FROM employees WHERE department = 'IT';"}
+{"prompt": "Write an SQL statement: list all employees hired after 2020", "completion": "SELECT * FROM employees WHERE hire_date > '2020-01-01';"}
+{"prompt": "Write an SQL statement: find employees who live in New York", "completion": "SELECT * FROM employees WHERE city = 'New York';"}
+{"prompt": "Write an SQL statement: get count of employees in each department", "completion": "SELECT department, COUNT(*) FROM employees GROUP BY department;"}
+{"prompt": "Write an SQL statement: fetch employees who have 'Manager' in their job title", "completion": "SELECT * FROM employees WHERE job_title LIKE '%Manager%';"}
+{"prompt": "Write an SQL statement: retrieve employees sorted by their salaries in descending order", "completion": "SELECT * FROM employees ORDER BY salary DESC;"}
+{"prompt": "Write an SQL statement: fetch employee details where department is HR and age is greater than 40", "completion": "SELECT * FROM employees WHERE department = 'HR' AND age > 40;"}
+{"prompt": "Write an SQL statement: retrieve distinct job titles from the employee table", "completion": "SELECT DISTINCT job_title FROM employees;"}
+{"prompt": "Write an SQL statement: employee age is greater than 50", "completion": "SELECT * FROM employees WHERE age > 50;"}
+{"prompt": "Write an SQL statement: retrieve all employees whose salary is greater than 50000", "completion": "SELECT * FROM employees WHERE salary > 50000;"}
+{"prompt": "Write an SQL statement: fetch names and departments of employees working in IT department", "completion": "SELECT name, department FROM employees WHERE department = 'IT';"}
+{"prompt": "Write an SQL statement: list all employees hired after 2020", "completion": "SELECT * FROM employees WHERE hire_date > '2020-01-01';"}
+{"prompt": "Write an SQL statement: find employees who live in New York", "completion": "SELECT * FROM employees WHERE city = 'New York';"}
+{"prompt": "Write an SQL statement: get count of employees in each department", "completion": "SELECT department, COUNT(*) FROM employees GROUP BY department;"}
+{"prompt": "Write an SQL statement: fetch employees who have 'Manager' in their job title", "completion": "SELECT * FROM employees WHERE job_title LIKE '%Manager%';"}
+{"prompt": "Write an SQL statement: retrieve employees sorted by their salaries in descending order", "completion": "SELECT * FROM employees ORDER BY salary DESC;"}
+{"prompt": "Write an SQL statement: fetch employee details where department is HR and age is greater than 40", "completion": "SELECT * FROM employees WHERE department = 'HR' AND age > 40;"}
+{"prompt": "Write an SQL statement: retrieve distinct job titles from the employee table", "completion": "SELECT DISTINCT job_title FROM employees;"}
+{"prompt": "Write an SQL statement: employee age is greater than 50", "completion": "SELECT * FROM employees WHERE age > 50;"}
+{"prompt": "Write an SQL statement: retrieve all employees whose salary is greater than 50000", "completion": "SELECT * FROM employees WHERE salary > 50000;"}
+{"prompt": "Write an SQL statement: fetch names and departments of employees working in IT department", "completion": "SELECT name, department FROM employees WHERE department = 'IT';"}
+{"prompt": "Write an SQL statement: list all employees hired after 2020", "completion": "SELECT * FROM employees WHERE hire_date > '2020-01-01';"}
+{"prompt": "Write an SQL statement: find employees who live in New York", "completion": "SELECT * FROM employees WHERE city = 'New York';"}
+{"prompt": "Write an SQL statement: get count of employees in each department", "completion": "SELECT department, COUNT(*) FROM employees GROUP BY department;"}
+{"prompt": "Write an SQL statement: fetch employees who have 'Manager' in their job title", "completion": "SELECT * FROM employees WHERE job_title LIKE '%Manager%';"}
+{"prompt": "Write an SQL statement: retrieve employees sorted by their salaries in descending order", "completion": "SELECT * FROM employees ORDER BY salary DESC;"}
+{"prompt": "Write an SQL statement: fetch employee details where department is HR and age is greater than 40", "completion": "SELECT * FROM employees WHERE department = 'HR' AND age > 40;"}
+{"prompt": "Write an SQL statement: retrieve distinct job titles from the employee table", "completion": "SELECT DISTINCT job_title FROM employees;"}
+{"prompt": "Write an SQL statement: employee age is greater than 50", "completion": "SELECT * FROM employees WHERE age > 50;"}
+{"prompt": "Write an SQL statement: retrieve all employees whose salary is greater than 50000", "completion": "SELECT * FROM employees WHERE salary > 50000;"}
+{"prompt": "Write an SQL statement: fetch names and departments of employees working in IT department", "completion": "SELECT name, department FROM employees WHERE department = 'IT';"}
+{"prompt": "Write an SQL statement: list all employees hired after 2020", "completion": "SELECT * FROM employees WHERE hire_date > '2020-01-01';"}
+{"prompt": "Write an SQL statement: find employees who live in New York", "completion": "SELECT * FROM employees WHERE city = 'New York';"}
+{"prompt": "Write an SQL statement: get count of employees in each department", "completion": "SELECT department, COUNT(*) FROM employees GROUP BY department;"}
+{"prompt": "Write an SQL statement: fetch employees who have 'Manager' in their job title", "completion": "SELECT * FROM employees WHERE job_title LIKE '%Manager%';"}
+{"prompt": "Write an SQL statement: retrieve employees sorted by their salaries in descending order", "completion": "SELECT * FROM employees ORDER BY salary DESC;"}
+{"prompt": "Write an SQL statement: fetch employee details where department is HR and age is greater than 40", "completion": "SELECT * FROM employees WHERE department = 'HR' AND age > 40;"}
+{"prompt": "Write an SQL statement: retrieve distinct job titles from the employee table", "completion": "SELECT DISTINCT job_title FROM employees;"}
+{"prompt": "Write an SQL statement: employee age is greater than 50", "completion": "SELECT * FROM employees WHERE age > 50;"}
+{"prompt": "Write an SQL statement: retrieve all employees whose salary is greater than 50000", "completion": "SELECT * FROM employees WHERE salary > 50000;"}
+{"prompt": "Write an SQL statement: fetch names and departments of employees working in IT department", "completion": "SELECT name, department FROM employees WHERE department = 'IT';"}
+{"prompt": "Write an SQL statement: list all employees hired after 2020", "completion": "SELECT * FROM employees WHERE hire_date > '2020-01-01';"}
+{"prompt": "Write an SQL statement: find employees who live in New York", "completion": "SELECT * FROM employees WHERE city = 'New York';"}
+{"prompt": "Write an SQL statement: get count of employees in each department", "completion": "SELECT department, COUNT(*) FROM employees GROUP BY department;"}
+{"prompt": "Write an SQL statement: fetch employees who have 'Manager' in their job title", "completion": "SELECT * FROM employees WHERE job_title LIKE '%Manager%';"}
+{"prompt": "Write an SQL statement: retrieve employees sorted by their salaries in descending order", "completion": "SELECT * FROM employees ORDER BY salary DESC;"}
+{"prompt": "Write an SQL statement: fetch employee details where department is HR and age is greater than 40", "completion": "SELECT * FROM employees WHERE department = 'HR' AND age > 40;"}
+{"prompt": "Write an SQL statement: retrieve distinct job titles from the employee table", "completion": "SELECT DISTINCT job_title FROM employees;"}
+{"prompt": "Write an SQL statement: employee age is greater than 50", "completion": "SELECT * FROM employees WHERE age > 50;"}
+{"prompt": "Write an SQL statement: retrieve all employees whose salary is greater than 50000", "completion": "SELECT * FROM employees WHERE salary > 50000;"}
+{"prompt": "Write an SQL statement: fetch names and departments of employees working in IT department", "completion": "SELECT name, department FROM employees WHERE department = 'IT';"}
+{"prompt": "Write an SQL statement: list all employees hired after 2020", "completion": "SELECT * FROM employees WHERE hire_date > '2020-01-01';"}
+{"prompt": "Write an SQL statement: find employees who live in New York", "completion": "SELECT * FROM employees WHERE city = 'New York';"}
+{"prompt": "Write an SQL statement: get count of employees in each department", "completion": "SELECT department, COUNT(*) FROM employees GROUP BY department;"}
+{"prompt": "Write an SQL statement: fetch employees who have 'Manager' in their job title", "completion": "SELECT * FROM employees WHERE job_title LIKE '%Manager%';"}
+{"prompt": "Write an SQL statement: retrieve employees sorted by their salaries in descending order", "completion": "SELECT * FROM employees ORDER BY salary DESC;"}
+{"prompt": "Write an SQL statement: fetch employee details where department is HR and age is greater than 40", "completion": "SELECT * FROM employees WHERE department = 'HR' AND age > 40;"}
+{"prompt": "Write an SQL statement: retrieve distinct job titles from the employee table", "completion": "SELECT DISTINCT job_title FROM employees;"}
+{"prompt": "Write an SQL statement: employee age is greater than 50", "completion": "SELECT * FROM employees WHERE age > 50;"}
+{"prompt": "Write an SQL statement: retrieve all employees whose salary is greater than 50000", "completion": "SELECT * FROM employees WHERE salary > 50000;"}
+{"prompt": "Write an SQL statement: fetch names and departments of employees working in IT department", "completion": "SELECT name, department FROM employees WHERE department = 'IT';"}
+{"prompt": "Write an SQL statement: list all employees hired after 2020", "completion": "SELECT * FROM employees WHERE hire_date > '2020-01-01';"}
+{"prompt": "Write an SQL statement: find employees who live in New York", "completion": "SELECT * FROM employees WHERE city = 'New York';"}
+{"prompt": "Write an SQL statement: get count of employees in each department", "completion": "SELECT department, COUNT(*) FROM employees GROUP BY department;"}
+{"prompt": "Write an SQL statement: fetch employees who have 'Manager' in their job title", "completion": "SELECT * FROM employees WHERE job_title LIKE '%Manager%';"}
+{"prompt": "Write an SQL statement: retrieve employees sorted by their salaries in descending order", "completion": "SELECT * FROM employees ORDER BY salary DESC;"}
+{"prompt": "Write an SQL statement: fetch employee details where department is HR and age is greater than 40", "completion": "SELECT * FROM employees WHERE department = 'HR' AND age > 40;"}
+{"prompt": "Write an SQL statement: retrieve distinct job titles from the employee table", "completion": "SELECT DISTINCT job_title FROM employees;"}
+{"prompt": "Write an SQL statement: employee age is greater than 50", "completion": "SELECT * FROM employees WHERE age > 50;"}
+{"prompt": "Write an SQL statement: retrieve all employees whose salary is greater than 50000", "completion": "SELECT * FROM employees WHERE salary > 50000;"}
+{"prompt": "Write an SQL statement: fetch names and departments of employees working in IT department", "completion": "SELECT name, department FROM employees WHERE department = 'IT';"}
+{"prompt": "Write an SQL statement: list all employees hired after 2020", "completion": "SELECT * FROM employees WHERE hire_date > '2020-01-01';"}
+{"prompt": "Write an SQL statement: find employees who live in New York", "completion": "SELECT * FROM employees WHERE city = 'New York';"}
+{"prompt": "Write an SQL statement: get count of employees in each department", "completion": "SELECT department, COUNT(*) FROM employees GROUP BY department;"}
+{"prompt": "Write an SQL statement: fetch employees who have 'Manager' in their job title", "completion": "SELECT * FROM employees WHERE job_title LIKE '%Manager%';"}
+{"prompt": "Write an SQL statement: retrieve employees sorted by their salaries in descending order", "completion": "SELECT * FROM employees ORDER BY salary DESC;"}
+{"prompt": "Write an SQL statement: fetch employee details where department is HR and age is greater than 40", "completion": "SELECT * FROM employees WHERE department = 'HR' AND age > 40;"}
+{"prompt": "Write an SQL statement: retrieve distinct job titles from the employee table", "completion": "SELECT DISTINCT job_title FROM employees;"}
+{"prompt": "Write an SQL statement: employee age is greater than 50", "completion": "SELECT * FROM employees WHERE age > 50;"}
+{"prompt": "Write an SQL statement: retrieve all employees whose salary is greater than 50000", "completion": "SELECT * FROM employees WHERE salary > 50000;"}
+{"prompt": "Write an SQL statement: fetch names and departments of employees working in IT department", "completion": "SELECT name, department FROM employees WHERE department = 'IT';"}
+{"prompt": "Write an SQL statement: list all employees hired after 2020", "completion": "SELECT * FROM employees WHERE hire_date > '2020-01-01';"}
+{"prompt": "Write an SQL statement: find employees who live in New York", "completion": "SELECT * FROM employees WHERE city = 'New York';"}
+{"prompt": "Write an SQL statement: get count of employees in each department", "completion": "SELECT department, COUNT(*) FROM employees GROUP BY department;"}
+{"prompt": "Write an SQL statement: fetch employees who have 'Manager' in their job title", "completion": "SELECT * FROM employees WHERE job_title LIKE '%Manager%';"}
+{"prompt": "Write an SQL statement: retrieve employees sorted by their salaries in descending order", "completion": "SELECT * FROM employees ORDER BY salary DESC;"}
+{"prompt": "Write an SQL statement: fetch employee details where department is HR and age is greater than 40", "completion": "SELECT * FROM employees WHERE department = 'HR' AND age > 40;"}
+{"prompt": "Write an SQL statement: retrieve distinct job titles from the employee table", "completion": "SELECT DISTINCT job_title FROM employees;"}
+{"prompt": "Write an SQL statement: employee age is greater than 50", "completion": "SELECT * FROM employees WHERE age > 50;"}
+{"prompt": "Write an SQL statement: retrieve all employees whose salary is greater than 50000", "completion": "SELECT * FROM employees WHERE salary > 50000;"}
+{"prompt": "Write an SQL statement: fetch names and departments of employees working in IT department", "completion": "SELECT name, department FROM employees WHERE department = 'IT';"}
+{"prompt": "Write an SQL statement: list all employees hired after 2020", "completion": "SELECT * FROM employees WHERE hire_date > '2020-01-01';"}
+{"prompt": "Write an SQL statement: find employees who live in New York", "completion": "SELECT * FROM employees WHERE city = 'New York';"}
+{"prompt": "Write an SQL statement: get count of employees in each department", "completion": "SELECT department, COUNT(*) FROM employees GROUP BY department;"}
+{"prompt": "Write an SQL statement: fetch employees who have 'Manager' in their job title", "completion": "SELECT * FROM employees WHERE job_title LIKE '%Manager%';"}
+{"prompt": "Write an SQL statement: retrieve employees sorted by their salaries in descending order", "completion": "SELECT * FROM employees ORDER BY salary DESC;"}
+{"prompt": "Write an SQL statement: fetch employee details where department is HR and age is greater than 40", "completion": "SELECT * FROM employees WHERE department = 'HR' AND age > 40;"}
+{"prompt": "Write an SQL statement: retrieve distinct job titles from the employee table", "completion": "SELECT DISTINCT job_title FROM employees;"}
